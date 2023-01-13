@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #8a2b06;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+  }
+
+  .header h1{
+    font-family: 'Moon Dance' , cursive;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: 25rem;
+    z-index: 0;
+    overflow: hidden;
+  }
+  
+  .main-image img {
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+  }
+
+  
+
+  @media (max-width: 500px)
+  {
+    .header-h1{
+      margin: 0% 8%;
+    }
+  }
+
+  @media (max-width: 430px)
+  {
+    .header h1{
+      margin: 0 2%;
+      font-size:xx-large;
+    }
+  }
+  @media (max-width: 355px)
+  {
+    .header h1{
+      font-size: 25px;
+    }
+    
+  }
